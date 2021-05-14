@@ -1,0 +1,36 @@
+html, body { height: 100%; }
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #fff;
+}
+
+.container {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.water-bkg, .water-mask {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: bottom center;
+}
+
+.water-bkg {
+	background-image: url('mushrooms.jpg');
+}
+.water-mask {
+	background-image: url('mushrooms.jpg');
+	filter: url("#ripple");
+}
+
+svg {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+}

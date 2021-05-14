@@ -21,9 +21,14 @@ body {
 }
 
 .water-bkg {
-	background-image: url('mushrooms.jpg');
+	background-image: url('village1.jpg');
 }
 .water-mask {
+	background-image: url('water_mask1.jpg');
+	filter: url("#ripple");
+}
+
+.mushrooms-mask {
 	background-image: url('mushrooms.jpg');
 	filter: url("#ripple");
 }

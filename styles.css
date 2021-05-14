@@ -26,7 +26,7 @@ body {
 	background-image: url('village1.jpg');
 }
 .water-mask {
-	background-image: url('water_mask1.jpg');
+	background-image: url('water_mask1.png');
 	filter: url("#ripple");
 }
 

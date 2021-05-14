@@ -12,6 +12,7 @@ body {
 	height: 100%;
 }
 
+.mushrooms-bkg,
 .water-bkg, .water-mask {
 	display: block;
 	width: 100%;
@@ -28,7 +29,7 @@ body {
 	filter: url("#ripple");
 }
 
-.mushrooms-mask {
+.mushrooms-bkg {
 	background-image: url('mushrooms.jpg');
 	filter: url("#ripple");
 }

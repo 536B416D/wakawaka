@@ -70,7 +70,7 @@ window.addEventListener('load', function(e) {
 			
 			this.color.a -= 0.01;
 
-			if (0 == (this.h = ++this.h % (this.R * 2))) {
+			if (0 == (this.h = ++this.h % (this.R * 3))) {
 				this.init();
 			}
 

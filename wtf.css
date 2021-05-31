@@ -1,0 +1,13 @@
+html, body { height: 100%; }
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#screen {
+	display: block;
+	margin: 0px auto;
+	background-color: rgb(35,35,35);
+}

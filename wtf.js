@@ -43,7 +43,7 @@ window.addEventListener('load', function(e) {
 				a: 1
 			};
       
-      this.max = Math.abs(r)/GCD(Math.abs(R), Math.abs(r));
+      			this.max = Math.abs(this.r)/GCD(Math.abs(this.R), Math.abs(this.r));
 		},
 
 		draw: function() {

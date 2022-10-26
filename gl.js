@@ -80,7 +80,6 @@ function init() {
 
 		if (0.17 > radius) {
 			radius = Math.sin(0.17 * e_time * 4.0) * 0.2;
-			console.log(radius);
 			gl.uniform1f(gl.getUniformLocation(shaderProgram,'u_radius'), radius);
 		}
 		gl.uniform1f(gl.getUniformLocation(shaderProgram,'u_time'), e_time);

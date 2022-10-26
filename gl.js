@@ -62,11 +62,9 @@ function init() {
 	gl.clear(gl.COLOR_BUFFER_BIT);
 
 	gl.enableVertexAttribArray(a_Position);
-	//gl.enableVertexAttribArray(a_Color);
 
 	gl.bindBuffer(gl.ARRAY_BUFFER, vbo);
 	gl.vertexAttribPointer(a_Position, 3, gl.FLOAT, false, 0, 0);
-//	gl.vertexAttribPointer(a_Color, 3, gl.FLOAT, false, 4 * (3 + 3), 4 * 3);
 
 	gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, ebo);
 
